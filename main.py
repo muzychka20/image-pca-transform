@@ -45,7 +45,7 @@ def main():
     print("\nMean vector:\n", m)
 
     covmat = np.cov(Xcentered)
-    print("\nCovariance matrix:", covmat, end="\n")
+    print("\nCovariance matrix:\n", covmat, end="\n")
           
     # Вычисляем собственные значения и собственные векторы
     eigvals, eigvecs = np.linalg.eig(covmat)
